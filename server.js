@@ -7,7 +7,7 @@ const port = 7410;
 app.use(cors({ origin: '*' }));
 app.use(express.static(__dirname + '/public'));
 
-const server = app.listen(port, '192.168.29.56', () => {
+const server = app.listen(port, '0.0.0.0', () => {
     console.log(`Server started at http://192.168.29.56:${port}`);
 });
 
