@@ -3,6 +3,11 @@ const cors = require('cors');
 const socketIo = require('socket.io');
 const app = express();
 const port = 7410;
+const path = require('path');
+
+app.get('/sitemap.xml', (req, res) => {
+    res.sendFile(path.join(__dirname, 'sitemap.xml'));
+});
 
 app.use(cors({ origin: '*' }));
 app.use(express.static(__dirname + '/public'));
