@@ -21,31 +21,96 @@
     
     <!-- Styles -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- ✅ Google AdSense Auto Ads Script -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8285153036061906"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
     <h1>WebRTC File Transfer</h1>
-<p>
-  WebRTC File Transfer is a free, secure, and fast tool to send files directly between browsers using peer-to-peer (P2P) technology. 
-  No uploads to servers — just a simple way to transfer files using WebRTC in real time.
-</p>
-<p>
-  Try this browser-based WebRTC file sharing solution for instant, private file transfers without registration.
-</p>
+    <p>
+        WebRTC File Transfer is a free, secure, and fast tool to send files directly between browsers using peer-to-peer (P2P) technology. 
+        No uploads to servers — just a simple way to transfer files using WebRTC in real time.
+    </p>
+    <p>
+        Try this browser-based WebRTC file sharing solution for instant, private file transfers without registration.
+    </p>
 
+    <p>Welcome to our WebRTC File Transfer tool. Easily share files directly between browsers using peer-to-peer WebRTC technology — no servers, no storage, just secure and fast transfers.</p>
 
-    <!-- Google AdSense Ad -->
+    <div>
+        <div>
+            <h2>PEER 1</h2>
+            <textarea id="localConfigText" cols="50" rows="10"></textarea><br>
+            <button id="connectLocalConfig">Create Local Offer</button>
+        </div>
+
+        <div>
+            <h2>PEER 2</h2>
+            <textarea id="remoteConfigText" cols="50" rows="10"></textarea><br>
+            <button id="connectRemoteConfig">Connect</button>
+        </div>
+    </div>
+
+    <hr>
+
+    <div>
+        <input type="file" id="file-upload" />
+        <button id="sendFile" hidden>Send File</button><br>
+        <progress id="progress" value="0"></progress>
+        <label id="progressLabel"></label>
+    </div>
+    
+    <a href="" id="downloadanchor"></a>
+    <p id="connectionStatus">Waiting for connection...</p>
+
+    <footer>
+        <p>Start using WebRTC File Transfer today for free and enjoy secure, instant file sharing without server uploads.</p>
+    </footer>
+
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Site Verification -->
+    <meta name="google-site-verification" content="tKyU0tfjE_h6T4itrwO_ve6JocYXmm_8DzS9dISTQ3o" />
+
+    <!-- SEO Meta Tags -->
+    <title>WebRTC File Transfer | Secure Peer-to-Peer File Sharing</title>
+    <meta name="description" content="Use our free WebRTC File Transfer tool to send files securely and instantly using peer-to-peer technology. No server uploads required.">
+    <meta name="keywords" content="WebRTC file transfer, peer to peer file sharing, secure file sharing, send files without server, p2p file transfer, browser file transfer">
+    <meta name="robots" content="index, follow">
+
+    <!-- Social Preview Tags (Optional but Helpful for Sharing) -->
+    <meta property="og:title" content="WebRTC File Transfer" />
+    <meta property="og:description" content="Secure, free peer-to-peer file transfer using WebRTC. No upload, no signup." />
+    <meta property="og:url" content="https://webrtc-file-4.onrender.com/" />
+    <meta property="og:type" content="website" />
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- ✅ Google AdSense Auto Ads Script -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8285153036061906"
-            crossorigin="anonymous"></script>
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-client="ca-pub-8285153036061906"
-         data-ad-slot="5548234326"
-         data-ad-format="auto"
-         data-full-width-responsive="true"></ins>
-    <script>
-         (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h1>WebRTC File Transfer</h1>
+    <p>
+        WebRTC File Transfer is a free, secure, and fast tool to send files directly between browsers using peer-to-peer (P2P) technology. 
+        No uploads to servers — just a simple way to transfer files using WebRTC in real time.
+    </p>
+    <p>
+        Try this browser-based WebRTC file sharing solution for instant, private file transfers without registration.
+    </p>
 
     <p>Welcome to our WebRTC File Transfer tool. Easily share files directly between browsers using peer-to-peer WebRTC technology — no servers, no storage, just secure and fast transfers.</p>
 
